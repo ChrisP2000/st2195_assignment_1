@@ -1,0 +1,26 @@
+---
+title: "R Markdown Assi_1"
+author: "Chris_Pang"
+date: "2023-09-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# This documents generate from number 1 - 10
+
+
+```{R}
+x<- 1
+for (x in 1:10) {
+  print(x)
+}
+
+```
+
+
+
+
