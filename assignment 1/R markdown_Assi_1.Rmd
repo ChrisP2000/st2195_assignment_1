@@ -12,11 +12,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 # This documents generate from number 1 - 10
+done with for loop
+
+```{r for}
 
 
-```{R}
-
-x<- 1
 for (x in 1:10) {
   print(x)
 }
